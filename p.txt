@@ -1,0 +1,51 @@
+  PatientId              Age            Gender       AirPollution 
+ Length:1000        Min.   :14.00   Min.   :1.000   Min.   :1.00  
+ Class :character   1st Qu.:27.75   1st Qu.:1.000   1st Qu.:2.00  
+ Mode  :character   Median :36.00   Median :1.000   Median :3.00  
+                    Mean   :37.17   Mean   :1.402   Mean   :3.84  
+                    3rd Qu.:45.00   3rd Qu.:2.000   3rd Qu.:6.00  
+                    Max.   :73.00   Max.   :2.000   Max.   :8.00  
+   Alcoholuse     DustAllergy    OccuPationalHazards  GeneticRisk  
+ Min.   :1.000   Min.   :1.000   Min.   :1.00        Min.   :1.00  
+ 1st Qu.:2.000   1st Qu.:4.000   1st Qu.:3.00        1st Qu.:2.00  
+ Median :5.000   Median :6.000   Median :5.00        Median :5.00  
+ Mean   :4.563   Mean   :5.165   Mean   :4.84        Mean   :4.58  
+ 3rd Qu.:7.000   3rd Qu.:7.000   3rd Qu.:7.00        3rd Qu.:7.00  
+ Max.   :8.000   Max.   :8.000   Max.   :8.00        Max.   :7.00  
+ chronicLungDisease  BalancedDiet      Obesity         Smoking     
+ Min.   :1.00       Min.   :1.000   Min.   :1.000   Min.   :1.000  
+ 1st Qu.:3.00       1st Qu.:2.000   1st Qu.:3.000   1st Qu.:2.000  
+ Median :4.00       Median :4.000   Median :4.000   Median :3.000  
+ Mean   :4.38       Mean   :4.491   Mean   :4.465   Mean   :3.948  
+ 3rd Qu.:6.00       3rd Qu.:7.000   3rd Qu.:7.000   3rd Qu.:7.000  
+ Max.   :7.00       Max.   :7.000   Max.   :7.000   Max.   :8.000  
+ PassiveSmoker     ChestPain     CoughingofBlood    Fatigue     
+ Min.   :1.000   Min.   :1.000   Min.   :1.000   Min.   :1.000  
+ 1st Qu.:2.000   1st Qu.:2.000   1st Qu.:3.000   1st Qu.:2.000  
+ Median :4.000   Median :4.000   Median :4.000   Median :3.000  
+ Mean   :4.195   Mean   :4.438   Mean   :4.859   Mean   :3.856  
+ 3rd Qu.:7.000   3rd Qu.:7.000   3rd Qu.:7.000   3rd Qu.:5.000  
+ Max.   :8.000   Max.   :9.000   Max.   :9.000   Max.   :9.000  
+   WeightLoss    ShortnessofBreath    Wheezing     SwallowingDifficulty
+ Min.   :1.000   Min.   :1.00      Min.   :1.000   Min.   :1.000       
+ 1st Qu.:2.000   1st Qu.:2.00      1st Qu.:2.000   1st Qu.:2.000       
+ Median :3.000   Median :4.00      Median :4.000   Median :4.000       
+ Mean   :3.855   Mean   :4.24      Mean   :3.777   Mean   :3.746       
+ 3rd Qu.:6.000   3rd Qu.:6.00      3rd Qu.:5.000   3rd Qu.:5.000       
+ Max.   :8.000   Max.   :9.00      Max.   :8.000   Max.   :8.000       
+ ClubbingofFingerNails  FrequentCold      DryCough        Snoring     
+ Min.   :1.000         Min.   :1.000   Min.   :1.000   Min.   :1.000  
+ 1st Qu.:2.000         1st Qu.:2.000   1st Qu.:2.000   1st Qu.:2.000  
+ Median :4.000         Median :3.000   Median :4.000   Median :3.000  
+ Mean   :3.923         Mean   :3.536   Mean   :3.853   Mean   :2.926  
+ 3rd Qu.:5.000         3rd Qu.:5.000   3rd Qu.:6.000   3rd Qu.:4.000  
+ Max.   :9.000         Max.   :7.000   Max.   :7.000   Max.   :7.000  
+    Level          
+ Length:1000       
+ Class :character  
+ Mode  :character  
+                   
+                   
+                   
+  High Low Medium
+1    0   1      0

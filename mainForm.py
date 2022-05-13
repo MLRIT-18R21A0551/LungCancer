@@ -61,10 +61,21 @@ def submitCall(e, r):
     f = open("./prediction/Test.csv", "w")
     f.write(opls)
     f.close()
+    f=open("p.txt",'w')
+    subprocess.run("./predict.sh", shell = True, stdout=f)
+    f.close()
 
-    subprocess.call("ls")
+    f=open("p.txt",'r')
 
     r.destroy()
+
+    r = Tk()
+    r.title("Lung Cancer Prediction")
+    t=Text(r)
+    t.pack()
+    t.insert(END, f.read())
+    r.mainloop()
+
     return
 
 
