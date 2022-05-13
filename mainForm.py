@@ -45,13 +45,13 @@ def submitCall(e, r):
     for s in fields:
         opls+=('"'+s+'",')
 
-    opls=opls[0:-1]
-    opls+="\n"
+    opls+='"Level"'
+    opls+='\n"P777",'
+    opls='"PatientId",'+opls
 
     for s in fields:
         opls+=('"'+e[s].get()+'",')
 
-    opls=opls[0:-1]
     opls+="\n"
 
     print(opls,sep="")
