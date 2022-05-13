@@ -73,7 +73,8 @@ def submitCall(e, r):
     r.title("Lung Cancer Prediction")
     t=Text(r)
     t.pack()
-    t.insert(END, f.read())
+    sf = f.read()
+    t.insert(END, sf[-40:-19]+"\n"+sf[-17:-1])
     r.mainloop()
 
     return
