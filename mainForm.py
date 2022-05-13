@@ -6,7 +6,7 @@ fields = (
     "AirPollution",
     "AlcoholUse",
     "DustAllergy",
-    "OccupationalHazards",
+    "OccuPationalHazards",
     "GeneticRisk",
     "ChronicLungDisease",
     "BalancedDiet",
