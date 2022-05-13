@@ -1,14 +1,15 @@
+import subprocess
 from tkinter import *
 
 fields = (
     "Age",
     "Gender",
     "AirPollution",
-    "AlcoholUse",
+    "Alcoholuse",
     "DustAllergy",
     "OccuPationalHazards",
     "GeneticRisk",
-    "ChronicLungDisease",
+    "chronicLungDisease",
     "BalancedDiet",
     "Obesity",
     "Smoking",
@@ -55,7 +56,13 @@ def submitCall(e, r):
 
     opls+="\n"
 
-    print(opls,sep="")
+    # print(opls,sep="")
+
+    f = open("./prediction/Test.csv", "w")
+    f.write(opls)
+    f.close()
+
+    subprocess.call("ls")
 
     r.destroy()
     return
@@ -65,7 +72,7 @@ if __name__ == '__main__':
     root = Tk()
     root.title("Lung Cancer Prediction")
     ents = makeform(root, fields)
-    root.bind('<Return>', (lambda event, e=ents: submitCall(e, root)))
+    # root.bind('<Return>', (lambda event, e=ents: submitCall(e, root)))
     b1 = Button(root, text='Submit',
                 command=(lambda e=ents: submitCall(e, root)))
     b1.pack(side=LEFT, padx=5, pady=5)
