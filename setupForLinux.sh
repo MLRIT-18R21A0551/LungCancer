@@ -23,4 +23,7 @@ sudo R -e "install.packages('rpart')"
 sudo R -e "install.packages('rpart.plot')"
 sudo R -e "install.packages('caret')"
 
+#install python dependencies
+yes Y | sudo apt-get install python3-tk
 
+sudo snap install code --classic
